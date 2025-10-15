@@ -30,3 +30,97 @@ span {
 .bg-primary-color {
   @apply bg-purple-600;
 }
+/* .logo {
+  width: 150px;
+  height: auto;
+} */
+
+/* Fade-in for top-left name */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+/* Top-right bar animations */
+@keyframes barAnim1 {
+  0%,
+  100% {
+    height: 10px;
+  }
+  50% {
+    height: 20px;
+  }
+}
+@keyframes barAnim2 {
+  0%,
+  100% {
+    height: 22px;
+  }
+  50% {
+    height: 10px;
+  }
+}
+@keyframes barAnim3 {
+  0%,
+  100% {
+    height: 14px;
+  }
+  50% {
+    height: 24px;
+  }
+}
+@keyframes barAnim4 {
+  0%,
+  100% {
+    height: 18px;
+  }
+  50% {
+    height: 8px;
+  }
+}
+@keyframes barAnim5 {
+  0%,
+  100% {
+    height: 12px;
+  }
+  50% {
+    height: 22px;
+  }
+}
+.animate-bar1 {
+  animation: barAnim1 1s infinite ease-in-out;
+}
+.animate-bar2 {
+  animation: barAnim2 1.2s infinite ease-in-out;
+}
+.animate-bar3 {
+  animation: barAnim3 0.9s infinite ease-in-out;
+}
+.animate-bar4 {
+  animation: barAnim4 1.1s infinite ease-in-out;
+}
+.animate-bar5 {
+  animation: barAnim5 1.3s infinite ease-in-out;
+}
+
+/* Background scrolling text */
+@keyframes scrollText {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.animate-scrollText {
+  animation: scrollText 15s linear infinite;
+}
