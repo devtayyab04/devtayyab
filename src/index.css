@@ -124,3 +124,7 @@ span {
 .animate-scrollText {
   animation: scrollText 15s linear infinite;
 }
+html,
+body {
+  overflow-x: hidden;
+}

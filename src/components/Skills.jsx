@@ -10,7 +10,7 @@ import {
   DiGithubBadge,
 } from "react-icons/di";
 import { RiNextjsLine, RiTailwindCssLine } from "react-icons/ri";
-import { SiExpress, SiVite } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 import Reveal from "./Reveal";
 import { Link } from "react-scroll";
 import { TbBrandVite } from "react-icons/tb";
@@ -56,7 +56,7 @@ const Skills = () => {
       id="skills"
     >
       <Reveal>
-        <h2 className="text-3xl font-bold mb-4 text-center">
+        <h2 className="text-3xl font-bold py-5 text-center">
           Ski<span className="text-purple">lls</span>{" "}
         </h2>
         <p className="text-center mb-8">

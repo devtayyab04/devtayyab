@@ -1,18 +1,6 @@
 // import React from "react";
 import { motion } from "framer-motion";
 import Reveal from "./Reveal";
-import {
-  DiHtml5,
-  DiCss3,
-  DiBootstrap,
-  DiJavascript1,
-  DiReact,
-  DiNodejsSmall,
-  DiMongodb,
-  DiGithubBadge,
-} from "react-icons/di";
-import { RiNextjsLine, RiTailwindCssLine } from "react-icons/ri";
-import { SiExpress } from "react-icons/si";
 
 const About = () => {
   return (
@@ -68,32 +56,6 @@ const About = () => {
                 <p className="text-sm text-gray-400">Happy Clients</p>
               </div>
             </div>
-          </div>
-
-          <div className="mt-16 w-full overflow-hidden">
-            <motion.div
-              initial={{ x: 0 }}
-              animate={{ x: ["0%", "-50%"] }}
-              transition={{
-                ease: "linear",
-                duration: 25,
-                repeat: Infinity,
-              }}
-              className="flex items-center justify-center whitespace-nowrap text-4xl md:text-6xl font-light"
-            >
-              {/* <p className="text-gray-200 mr-6">My Tech Stack</p> */}
-              <DiHtml5 className="text-orange-600 mx-auto" />
-              <DiCss3 className="text-blue-600 mx-auto" />
-              <DiJavascript1 className="text-yellow-500 mx-auto" />
-              <DiReact className="text-blue-500 mx-auto" />
-              <DiNodejsSmall className="text-green-500 mx-auto" />
-              <DiBootstrap className="text-purple-600 mx-auto" />
-              <DiMongodb className="text-green-600 mx-auto" />
-              <DiGithubBadge className="text-gray-400 mx-auto" />
-              <RiNextjsLine className="text-white mx-auto" />
-              <RiTailwindCssLine className="text-sky-400 mx-auto" />
-              <SiExpress className="text-green-600 mx-auto" />
-            </motion.div>
           </div>
         </Reveal>
       </motion.div>

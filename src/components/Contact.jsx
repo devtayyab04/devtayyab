@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+// import React, { useRef } from "react";
 import Reveal from "./Reveal";
 import { IoCallOutline } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
@@ -26,7 +26,7 @@ const Contact = () => {
                 </div>
                 <div className="flex flex-col">
                   <span>Phone</span>
-                  <h1 className="text-white">+92 3176394605</h1>
+                  <h1 className="text-white">+92 3247605937</h1>
                 </div>
               </div>
               <div className="flex gap-5 items-center w-full">
@@ -42,7 +42,7 @@ const Contact = () => {
                 <div className="bg-gray-800/40 p-4 rounded-lg flex">
                   <IoLocationOutline className="text-2xl text-white" />
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col ">
                   <span>Address</span>
                   <h1 className="text-white">Arfa Karim Tower, Lahore</h1>
                 </div>
