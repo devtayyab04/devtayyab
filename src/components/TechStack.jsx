@@ -18,9 +18,10 @@ const TechStack = () => {
   return (
     <Reveal>
       <section
-        className=" py-10 px-6 md:px-20 overflow-hidden border border-purple-600 p-6 rounded-lg shadow-md
+        className=" py-8 px-6 md:px-20 overflow-hidden  p-6 rounded-lg shadow-md
                     hover:shadow-xl transition-shadow duration-300 bg-purple-700/10"
       >
+        {/* border border-purple-600 */}
         <div className="relative w-full overflow-hidden">
           <motion.div
             initial={{ x: 0 }}
