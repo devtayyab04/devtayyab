@@ -77,11 +77,14 @@ const Portfolio = () => {
         Pro<span className="text-purple">jects</span>
       </h2>
 
-      <div ref={carouselRef} className="flex space-x-6 overflow-hidden px-4">
+      <div
+        ref={carouselRef}
+        className="flex space-x-6 overflow-x-auto px-4 snap-x snap-mandatory scrollbar-hide"
+      >
         {projects.map((project, index) => (
           <motion.div
             key={index}
-            className="min-w-[280px] md:min-w-[320px] bg-gray-800 rounded-xl shadow-lg flex-shrink-0 hover:scale-105 transform transition duration-300"
+            className="min-w-[280px] md:min-w-[320px] bg-gray-800 rounded-xl shadow-lg flex-shrink-0 hover:scale-105 transform transition duration-300 snap-center"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
@@ -95,8 +98,6 @@ const Portfolio = () => {
             />
             <div className="p-4 flex flex-col justify-between h-45">
               <div className="max-w-[260px]">
-                {" "}
-                {/* <-- limit text width */}
                 <h3 className="text-xl font-semibold text-gray-200 mb-2">
                   {project.title}
                 </h3>
