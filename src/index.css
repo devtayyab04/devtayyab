@@ -128,3 +128,12 @@ html,
 body {
   overflow-x: hidden;
 }
+/* hide scrollbar for Chrome, Safari */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* hide scrollbar for Firefox */
+.scrollbar-hide {
+  scrollbar-width: none;
+}
