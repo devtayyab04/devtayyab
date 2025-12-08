@@ -26,7 +26,7 @@ const Contact = () => {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-sm text-gray-400">Phone</span>
-                  <h1 className="text-white text-lg">+92 3247605937</h1>
+                  <h1 className="text-white text-lg">+92 3284217676</h1>
                 </div>
               </div>
 
